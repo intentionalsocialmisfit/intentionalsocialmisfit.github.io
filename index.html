@@ -7,35 +7,34 @@ title: Intentional Social Misfit
 <div id="main">
 
 	<!-- Featured Post -->
-	<article class="post featured">
-		<header class="major">
-			<span class="date">April 25, 2017</span>
-			<h2><a href="#">And this is a<br />
-			massive headline</a></h2>
-			<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-				facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-			amet nullam sed etiam veroeros.</p>
-		</header>
-		<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-		<ul class="actions">
-			<li><a href="#" class="button big">Full Story</a></li>
-		</ul>
-	</article>
-
-	<!-- Posts -->
-	<section class="posts">
-		{% for post in site.posts %}
-		<article>
-			<header>
-				<span class="date">{{ post.date | date_to_string }}</span>
-				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-			</header>
-			<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-			<p>{{ post.summary }}</p>
-			<ul class="actions">
-				<li><a href="{{ post.url }}" class="button">{{ post.date | date_to_string }}</a></li>
-			</ul>
-		</article>
+	{% for post in site.posts %}
+		{% if forloop.first == true %}
+			<article class="post featured">
+				<header class="major">
+					<span class="date">{{ post.date | date_to_string }}</span>
+					<h2><a href="{{ post.url }}"></a></h2>
+					<p>{{ post.summary }}</p>
+				</header>
+				<a href="{{ post.url }}" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+				<ul class="actions">
+					<li><a href="{{ post.url }}" class="button big">Full Story</a></li>
+				</ul>
+			</article>
+			<!-- Posts -->
+			<section class="posts">
+			<% else %>
+				<article>
+					<header>
+						<span class="date">{{ post.date | date_to_string }}</span>
+						<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+					</header>
+					<a href="{{ post.url }}" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+					<p>{{ post.summary }}</p>
+					<ul class="actions">
+						<li><a href="{{ post.url }}" class="button">Full Story</a></li>
+					</ul>
+				</article>
+			<% endif %>
 		{% endfor %}
 	</section>
 
