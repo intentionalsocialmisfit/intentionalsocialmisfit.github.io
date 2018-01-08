@@ -223,8 +223,8 @@
 						}).trigger('resize.ie-intro-fix');
 					}
 
-				// Hide intro on scroll (> small).
-					skel.on('!small -small', function() {
+				// Hide intro on scroll (> medium).
+					skel.on('!medium -medium', function() {
 
 						$main.unscrollex();
 
@@ -242,8 +242,8 @@
 
 					});
 
-				// Hide intro on scroll (<= small).
-					skel.on('+small', function() {
+				// Hide intro on scroll (<= medium).
+					skel.on('+medium', function() {
 
 						$main.unscrollex();
 
