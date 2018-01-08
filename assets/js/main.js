@@ -223,13 +223,13 @@
 						}).trigger('resize.ie-intro-fix');
 					}
 
-				// Hide intro on scroll (> medium).
-					skel.on('!medium -medium', function() {
+				// Hide intro on scroll (> small).
+					skel.on('!small -small', function() {
 
 						$main.unscrollex();
 
 						$main.scrollex({
-							mode: 'bottom',
+							mode: 'top',
 							top: '25vh',
 							bottom: '-50vh',
 							enter: function() {
@@ -242,8 +242,8 @@
 
 					});
 
-				// Hide intro on scroll (<= medium).
-					skel.on('+medium', function() {
+				// Hide intro on scroll (<= small).
+					skel.on('+small', function() {
 
 						$main.unscrollex();
 
