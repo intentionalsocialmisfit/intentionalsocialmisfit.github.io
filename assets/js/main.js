@@ -226,17 +226,15 @@
 				// Hide intro on scroll (> small).
 					skel.on('!small -small', function() {
 
-						$main.unscrollex();
+						$intro.unscrollex();
 
-						$main.scrollex({
-							mode: 'bottom',
-							top: '25vh',
-							bottom: '-50vh',
+						$intro.scrollex({
+							bottom: '15vh',
 							enter: function() {
-								$intro.addClass('hidden');
+								$intro.removeClass('hidden');
 							},
 							leave: function() {
-								$intro.removeClass('hidden');
+								$intro.addClass('hidden');
 							}
 						});
 
@@ -245,17 +243,15 @@
 				// Hide intro on scroll (<= small).
 					skel.on('+small', function() {
 
-						$main.unscrollex();
+						$intro.unscrollex();
 
-						$main.scrollex({
-							mode: 'middle',
-							top: '15vh',
-							bottom: '-15vh',
+						$intro.scrollex({
+							bottom: '10vh',
 							enter: function() {
-								$intro.addClass('hidden');
+								$intro.removeClass('hidden');
 							},
 							leave: function() {
-								$intro.removeClass('hidden');
+								$intro.addClass('hidden');
 							}
 						});
 
