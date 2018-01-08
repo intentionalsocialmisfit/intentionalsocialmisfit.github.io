@@ -229,7 +229,7 @@
 						$main.unscrollex();
 
 						$main.scrollex({
-							mode: 'top',
+							mode: 'bottom',
 							top: '25vh',
 							bottom: '-50vh',
 							enter: function() {
