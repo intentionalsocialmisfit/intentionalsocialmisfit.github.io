@@ -2717,7 +2717,6 @@
 		header > .date {
 			display: block;
 			font-size: 0.8rem;
-			height: 1;
 			margin: 0 0 1rem 0;
 			position: relative;
 		}
@@ -3585,12 +3584,8 @@
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 6rem 8rem 6rem 8rem ;
 		}
-
-			#main > .post header.major > .date {
-				margin-top: -2rem;
-			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
 				font-size: 4rem;
@@ -3605,7 +3600,7 @@
 			@media screen and (max-width: 1280px) {
 
 				#main > .post {
-					padding: 6rem 4rem 4rem 4rem ;
+					padding: 4rem 4rem 4rem 4rem ;
 				}
 
 			}
