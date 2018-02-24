@@ -4,7 +4,9 @@ title:  "Know Your Enemy"
 date:   2018-01-08 11:06:45 -0500
 categories: jekyll update
 ---
-Hallelujah we can finally hear  
+##[Weapons (Jars of Clay)]  (https://www.youtube.com/watch?v=fCt-kdJTUks)  
+
+Hallelujah we can finally hear\
 It's a miracle we feel anything at all  
 Things we planted on the worst days of the year  
 Grow to fingers that rip at the joys and sets our backs against the wall  
