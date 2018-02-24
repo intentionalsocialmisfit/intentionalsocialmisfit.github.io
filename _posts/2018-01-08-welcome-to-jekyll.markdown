@@ -5,7 +5,7 @@ date:   2018-01-08 11:06:45 -0500
 categories: jekyll update
 ---
 
-![Who is my enemy text]({{ site.baseurl }}/images/WhoIsMyEnemy.jpg)  
+![Who is my enemy text]({{ site.baseurl }}/images/WhoIsMyEnemy.jpg =250x250)  
 
 ## [Weapons (Jars of Clay)](https://www.youtube.com/watch?v=fCt-kdJTUks)  
 
