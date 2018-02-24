@@ -4,7 +4,7 @@ title:  "Know Your Enemy"
 date:   2018-01-08 11:06:45 -0500
 categories: jekyll update
 ---
-##[Weapons (Jars of Clay)]  (https://www.youtube.com/watch?v=fCt-kdJTUks)  
+## [Weapons (Jars of Clay)](https://www.youtube.com/watch?v=fCt-kdJTUks)  
 
 Hallelujah we can finally hear\
 It's a miracle we feel anything at all  
