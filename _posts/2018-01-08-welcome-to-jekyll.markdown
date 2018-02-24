@@ -4,9 +4,12 @@ title:  "Know Your Enemy"
 date:   2018-01-08 11:06:45 -0500
 categories: jekyll update
 ---
+
+![Who is my enemy text](images/WhoIsMyEnemy.jpg)  
+
 ## [Weapons (Jars of Clay)](https://www.youtube.com/watch?v=fCt-kdJTUks)  
 
-Hallelujah we can finally hear\
+Hallelujah we can finally hear  
 It's a miracle we feel anything at all  
 Things we planted on the worst days of the year  
 Grow to fingers that rip at the joys and sets our backs against the wall  
